@@ -1,0 +1,17 @@
+{
+  "name": "challenge_one_fundamentos_nodejs",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "In this repository you will find the challenge of the first module of the Node.js Rocketseat Course.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch ./src/server.js"
+  },
+  "keywords": [
+    "rocketseat",
+    "nodejs",
+    "challenge"
+  ],
+  "author": "Roberto Camargo",
+  "license": "ISC"
+}
