@@ -5,7 +5,8 @@
   "description": "In this repository you will find the challenge of the first module of the Node.js Rocketseat Course.",
   "main": "src/server.js",
   "scripts": {
-    "dev": "node --watch ./src/server.js"
+    "dev": "node --watch ./src/server.js",
+    "parse": "node ./streams/csv-import.js"
   },
   "keywords": [
     "rocketseat",
@@ -13,5 +14,8 @@
     "challenge"
   ],
   "author": "Roberto Camargo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.3.6"
+  }
 }
